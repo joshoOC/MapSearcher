@@ -79,8 +79,6 @@ open class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
                     mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(latLng,15.0f))
                     Toast.makeText(this,lugares,Toast.LENGTH_SHORT).show()
                 }
-
-
             }catch ( e: Exception){
                 Toast.makeText(this, "Lugar no encontrado :C",Toast.LENGTH_SHORT).show()
             }
@@ -89,7 +87,7 @@ open class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
     }
 
     fun misLugares(){
-        bd.registrarLugar("casita", 18.879836 ,-99.230097)
+        bd.registrarLugar("casita",18.833745,-99.182017)
         bd.registrarLugar("Lugar de mis penas", 18.8496,-99.200242)
     }
 
