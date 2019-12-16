@@ -87,7 +87,7 @@ open class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
     }
 
     fun misLugares(){
-        bd.registrarLugar("casita",18.833745,-99.182017)
+        bd.registrarLugar("casita",18.83375 ,-99.182028)
         bd.registrarLugar("Lugar de mis penas", 18.8496,-99.200242)
     }
 
